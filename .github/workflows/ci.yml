@@ -24,7 +24,7 @@ jobs:
 
     # 4. Сборка
     - name: Create ZIP archive
-      run: zip archive.zip file.txt
+      run: zip archive.zip main.py
 
     # 5. Сохранение артефактов (Аналог artifacts: paths:)
     - name: Upload artifact
